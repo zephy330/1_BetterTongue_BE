@@ -19,7 +19,6 @@ class MeetingParticipant(
     @Column(nullable = false, length = 50)
     val speakerLabel: String,
 
-    @Lob
     @Column(columnDefinition = "TEXT")
     var aiAnalysisSummary: String? = null,
 

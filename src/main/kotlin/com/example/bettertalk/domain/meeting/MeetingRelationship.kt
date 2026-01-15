@@ -23,7 +23,6 @@ class MeetingRelationship(
     @Column(nullable = false)
     var chemistryScore: Int = 0,
 
-    @Lob
     @Column(columnDefinition = "TEXT")
     var analysisResultJson: String? = null,
 
